@@ -77,7 +77,7 @@ class Pig(arcade.Sprite):
         self.body = body
         self.shape = shape
 
-    def update(self`, delta_time):
+    def update(self, delta_time):
         self.center_x = self.shape.body.position.x
         self.center_y = self.shape.body.position.y
         self.radians = self.shape.body.angle
