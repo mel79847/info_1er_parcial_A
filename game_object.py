@@ -45,7 +45,7 @@ class Bird(arcade.Sprite):
         self.body = body
         self.shape = shape
 
-    def update(self):
+    def update(self, delta_time):
         """
         Update the position of the bird sprite based on the physics body position
         """
@@ -77,7 +77,7 @@ class Pig(arcade.Sprite):
         self.body = body
         self.shape = shape
 
-    def update(self):
+    def update(self`, delta_time):
         self.center_x = self.shape.body.position.x
         self.center_y = self.shape.body.position.y
         self.radians = self.shape.body.angle
@@ -111,7 +111,7 @@ class PassiveObject(arcade.Sprite):
         self.body = body
         self.shape = shape
 
-    def update(self):
+    def update(self, delta_time):
         self.center_x = self.shape.body.position.x
         self.center_y = self.shape.body.position.y
         self.radians = self.shape.body.angle
