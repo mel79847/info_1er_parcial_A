@@ -52,3 +52,7 @@ Una vez finalizadas las tareas, se deberá enviar un email por grupo con los sig
  - Asunto: 1era Evaluacion parcial Infografia
  - Contenido: Nombres y códigos de los integrantes y el enlace al repositorio de GitHub
 
+#IMPORTANTE PARA EL PROYECTO
+El pryecto se encuentra en la rama de feat/power-niveles
+
+
